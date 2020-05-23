@@ -1,0 +1,2 @@
+This projecct is for client in healthcare business. I have to build a screening test for diabetes for a chain of hospitals located in New York. This test will be done for patients coming in the hospital to provide a quick test of whether they have diabetes or not before results of proper medical testing can be done.
+This will serve as initial screening and help the doctors in giving initial medication to the identified patients.

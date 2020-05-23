@@ -1,0 +1,2 @@
+The data used has been collected from various hospitals across New York. The dataset comprises of various features like Age, insulin, Bloodpressure, Skin Thickness, BMI, glucose etc. for the patients and I trained various classifier Algorithms based on the dataset so that it could predict, given new data, whether a patient is diabetic or not.
+Initial data consisted of records for 769 patients with many records consisting of abrupt values that were later replaced during exploratory data analysis.
