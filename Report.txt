@@ -1,0 +1,22 @@
+Introduction to business problem-
+This projecct is for client in healthcare business. I have to build a screening test for diabetes for a chain of hospitals located in New York. This test will be done for patients coming in the hospital to provide a quick test of whether they have diabetes or not before results of proper medical testing can be done.
+This will serve as initial screening and help the doctors in giving initial medication to the identified patients.
+
+Data understanding-
+The data used has been collected from various hospitals across New York. The dataset comprises of various features like Age, insulin, Bloodpressure, Skin Thickness, BMI, glucose etc. for the patients and I trained various classifier Algorithms based on the dataset so that it could predict, given new data, whether a patient is diabetic or not.
+Initial data consisted of records for 769 patients with many records consisting of abrupt values that were later replaced during exploratory data analysis.
+
+Methodology-
+The whole dataset was scanned for missing values and imputer was used to replace zeroes with mean of the columns. Heatmap was plotted to get the correlation between various features. Skewness of the data was checked. Testing and training data was split and first random forest classifier was trained. To improve accuracy Hyper parameter optimisation was done with Xgboost. Various parameters with different values was passed in Xgboost then best estimator was called to get best fitted parameters and model was trained with those parameters. Finally improved accuracy was checked.
+
+Results-
+The random forest algorithms provided an accuracy of 72% and Xgboost with hyperparameter optimization gave an accuracy of 76.35%.
+
+Discussion-
+Since this test is just an initial screening test the low accuracy might not be so problemetic. 
+Although few steps can be taken to improve the accuracy-
+Data collection- Data could have been more accurate as many entries in different columns were zeroes. If better dataset were given accuracy would be higher.
+Skewness of the data- If the outcome column was more balanced we could have got higher accuracy.
+
+Conclusion-
+This test will work efficiently in providing initial screening of diabetes patients, Also scope improvement is quite high. 
